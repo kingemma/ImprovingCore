@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics", "Globomantics\Globomantics.csproj", "{F0CFDFF8-8F06-4262-AE44-42AB4492E47D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics.Services", "Globomantics.Services\Globomantics.Services.csproj", "{02ACB590-EDBF-4D38-8F75-BAC1AD3F559C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globomantics.Core", "Globomantics.Core\Globomantics.Core.csproj", "{5530CFA3-CC09-4523-81B3-AD42A59A4DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics.Core", "Globomantics.Core\Globomantics.Core.csproj", "{5530CFA3-CC09-4523-81B3-AD42A59A4DCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
