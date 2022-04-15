@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model CreditCardRatesVm
+@{
+    <div class="card-body">
+        <h3 class="card-title">@Model.Title</h3>@*Credit Card Rates*@
+        <p class="card-text">@Model.SubTitle</p>@*The lowest rates - guaranteed.*@
+    </div>
+    <ul class="list-group list-group-flush">
+        @foreach (var creditRate in Model.Rates)
+        {
+            <li class="list-group-item">@creditRate.Title: @creditRate.Value%</li>
+        }
+    </ul>
+    <div class="card-body">
+        <p>Learn how to get 3% back on everything.</p>
+        <a href="#" class="card-link">Learn More</a>
+    </div>
+}

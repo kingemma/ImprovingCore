@@ -4,6 +4,7 @@
 
 @section SideNav {
     @Html.Partial("LeftNav")
+    @await Component.InvokeAsync("MortagageRates")
 }
 
 <h2>Have a question? We have answers.</h2>

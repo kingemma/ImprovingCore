@@ -21,6 +21,7 @@ namespace Globomantics.Controllers
 
         public IActionResult Index()
         {
+            ViewData["CurrentDate"] = DateTime.Now.Year;
             var homeData = new HomeVM();
 
             homeData.CDRates = rateService.GetCDRates();
